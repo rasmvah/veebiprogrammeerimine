@@ -1,6 +1,6 @@
 <?php
     //kutsume välja funktsioonide faili
-	require("functions.php");
+	require("catfunctions.php");
 	
 	$notice = listallmessages();
 ?>
@@ -8,12 +8,12 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-			<title>Anonüümsete sõnumite lugemine</title>
+			<title>Kasside andmete lugemine</title>
 	</head>
 <body>
-	<h1>Sõnumid</h1>
+	<h1>Kasside andmed</h1>
 	
-	<p>Siin on kirjas teie kirjutatud sõnumid.</p>
+	<p>Siin on kirjas kasside andmed.</p>
 	<hr> 
 	<?php
 		echo $notice;
